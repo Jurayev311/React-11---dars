@@ -6,6 +6,7 @@ import Editors from '../../components/editors/Editors'
 import Cta from '../../components/cta/Cta'
 import Posts from '../../components/posts/Posts'
 import Footer from '../../components/footer/Footer'
+import Products from '../../components/products/Products'
 
 const Home = () => {
   return (
@@ -14,7 +15,7 @@ const Home = () => {
         <Header />
         <Hero />
         <Editors />
-        {/* apidan keladigan qismi */}
+        <Products />
         <Cta />
         <Posts />
         <Footer />

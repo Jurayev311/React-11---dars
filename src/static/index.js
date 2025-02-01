@@ -16,3 +16,5 @@ export const LINKS = [
         link: '/'
     },
 ]
+
+export const colors = ["#23A6F0", "#23856D", "#E77C40", "#252B42"];
