@@ -1,6 +1,6 @@
 import React from 'react'
 import Topheader from '../../components/top-header/Topheader'
-import Header from '../../components/header/header'
+import Header from '../../components/header/Header'
 import Hero from '../../components/hero/Hero'
 import Editors from '../../components/editors/Editors'
 import Cta from '../../components/cta/Cta'
