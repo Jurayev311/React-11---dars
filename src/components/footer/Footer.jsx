@@ -1,0 +1,155 @@
+import React from 'react'
+import logo from '../../assets/logo.svg'
+import fFacabook from '../../assets/ffacebook.svg'
+import fInstagram from '../../assets/finstagram.svg'
+import fTwitter from '../../assets/ftwitter.svg'
+
+const Footer = () => {
+  return (
+    <>
+      <div className='w-full h-36 bg-[#fafafa]'>
+        <div className='container flex items-center justify-between mt-24 h-full'>
+          <div>
+            <img src={logo} alt='' />
+          </div>
+          <div className='flex items-center gap-5'>
+            <img src={fFacabook} alt='' />
+            <img src={fInstagram} alt='' />
+            <img src={fTwitter} alt='' />
+          </div>
+        </div>
+      </div>
+      <div className='w-full h-auto'>
+        <div className='container flex gap-7.5 items-center h-[272px] flex-wrap'>
+          <ul className='flex flex-col items-start w-[148px]'>
+            <h2 className='text-base font-bold  text-[#252B42] mb-5'>
+              Company Info
+            </h2>
+            <li className='text-[#737373] text-sm font-bold mt-2.5 hover:underline'>
+              <a href=''>
+                <span>About Us</span>
+              </a>
+            </li>
+            <li className='text-[#737373] text-sm font-bold mt-2.5 hover:underline'>
+              <a href=''>
+                <span>Carrier</span>
+              </a>
+            </li>
+            <li className='text-[#737373] text-sm font-bold mt-2.5 hover:underline'>
+              <a href=''>
+                <span>We are hiring</span>
+              </a>
+            </li>
+            <li className='text-[#737373] text-sm font-bold mt-2.5 hover:underline'>
+              <a href=''>
+                <span>We are hiring</span>
+              </a>
+            </li>
+          </ul>
+          <ul className='flex flex-col items-start w-[148px]'>
+            <h2 className='text-base font-bold  text-[#252B42] mb-5'>Legal</h2>
+            <li className='text-[#737373] text-sm font-bold mt-2.5 hover:underline'>
+              <a href=''>
+                <span>About Us</span>
+              </a>
+            </li>
+            <li className='text-[#737373] text-sm font-bold mt-2.5 hover:underline'>
+              <a href=''>
+                <span>Carrier</span>
+              </a>
+            </li>
+            <li className='text-[#737373] text-sm font-bold mt-2.5 hover:underline'>
+              <a href=''>
+                <span>We are hiring</span>
+              </a>
+            </li>
+            <li className='text-[#737373] text-sm font-bold mt-2.5 hover:underline'>
+              <a href=''>
+                <span>We are hiring</span>
+              </a>
+            </li>
+          </ul>
+          <ul className='flex flex-col items-start w-[148px]'>
+            <h2 className='text-base font-bold  text-[#252B42] mb-5'>
+              Features
+            </h2>
+            <li className='text-[#737373] text-sm font-bold mt-2.5 hover:underline'>
+              <a href=''>
+                <span>Business Marketing</span>
+              </a>
+            </li>
+            <li className='text-[#737373] text-sm font-bold mt-2.5 hover:underline'>
+              <a href=''>
+                <span>User Analytic</span>
+              </a>
+            </li>
+            <li className='text-[#737373] text-sm font-bold mt-2.5 hover:underline'>
+              <a href=''>
+                <span>Live Chat</span>
+              </a>
+            </li>
+            <li className='text-[#737373] text-sm font-bold mt-2.5 hover:underline'>
+              <a href=''>
+                <span>Unlimited Support</span>
+              </a>
+            </li>
+          </ul>
+          <ul className='flex flex-col items-start w-[148px]'>
+            <h2 className='text-base font-bold  text-[#252B42] mb-5'>
+              Resources
+            </h2>
+            <li className='text-[#737373] text-sm font-bold mt-2.5 hover:underline'>
+              <a href=''>
+                <span>IOS & Android</span>
+              </a>
+            </li>
+            <li className='text-[#737373] text-sm font-bold mt-2.5 hover:underline'>
+                
+              <a href=''>
+                <span>Watch a Demo</span>
+              </a>
+            </li>
+            <li className='text-[#737373] text-sm font-bold mt-2.5 hover:underline'>
+              <a href=''>
+                <span>Customers</span>
+              </a>
+            </li>
+            <li className='text-[#737373] text-sm font-bold mt-2.5 hover:underline'>
+              <a href=''>
+                <span>API</span>
+              </a>
+            </li>
+          </ul>
+          <div>
+            <span className='text-base font-bold text-[#252B42]'>
+              Get In Touch
+            </span>
+            <div className='flex border border-[#e6e6e6] w-[321px] h-[58px] rounded-[5px] mt-5'>
+              <input
+                className='p-5 w-[70%]'
+                type='text'
+                placeholder='Your Email'
+              />
+              <button className='bg-[#23A6F0] w-[30%] text-white rounded-r-[5px] border-l-[#e6e6e6] '>
+                Subscribe
+              </button>
+            </div>
+            <span className='text-sm font-normal text-[#737373]'>
+              Lore imp sum dolor Amit
+            </span>
+          </div>
+        </div>
+      </div>
+      <div className='w-full h-[74px] bg-[#fafafa]'>
+        <div className='container flex items-center h-full'>
+          <span className='text-sm font-bold text-[#737373]'>
+            Made With Love By Finland All Right Reserved{' '}
+          </span>
+        </div>
+      </div>
+    </>
+  )
+}
+
+export default Footer
+

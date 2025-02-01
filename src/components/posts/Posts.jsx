@@ -21,14 +21,14 @@ const Posts = () => {
             <div className='grid grid-cols-3 gap-8'>
                 <div>
                 <img className='block' src={post1} alt="image" />
-                <div className='p-4'>
+                <div className='p-4 shadow rounded'>
                    <div className='flex gap-3.5 text-[#737373] text-[12px] font-normal mb-2.5'>
                     <strong className='hover:text-[#8EC2F2] cursor-pointer'>Google</strong>
                     <strong className='hover:text-[#8EC2F2] cursor-pointer'>Trending</strong>
                     <strong className='hover:text-[#8EC2F2] cursor-pointer'>New</strong>
                    </div>
 
-                    <div className='text-[20px] font-normal leading-8 mb-2.5 text-[#252B42]'>
+                    <div className='text-[20px] font-bold leading-8 mb-2.5 text-[#252B42]'>
                         <h2>Loudest à la Madison #1 </h2>
                         <span>(L'integral)</span>
                     </div>
@@ -44,7 +44,7 @@ const Posts = () => {
                     <img className='inline-block' src={iconRight} alt="" />
                 </div>
                 </div>
-                <div>
+                <div className='shadow rounded'>
                 <img className='block' src={post2} alt="image" />
                 <div className='p-4'>
                    <div className='flex gap-3.5 text-[#737373] text-[12px] font-normal mb-2.5'>
@@ -53,7 +53,7 @@ const Posts = () => {
                     <strong className='hover:text-[#8EC2F2] cursor-pointer'>New</strong>
                    </div>
 
-                    <div className='text-[20px] font-normal leading-8 mb-2.5 text-[#252B42]'>
+                    <div className='text-[20px] font-bold leading-8 mb-2.5 text-[#252B42]'>
                         <h2>Loudest à la Madison #1 </h2>
                         <span>(L'integral)</span>
                     </div>
@@ -69,7 +69,7 @@ const Posts = () => {
                     <img className='inline-block' src={iconRight} alt="" />
                 </div>
                 </div>
-                <div>
+                <div className='shadow rounded'>
                 <img className='block' src={post3} alt="image" />
                 <div className='p-4'>
                    <div className='flex gap-3.5 text-[#737373] text-[12px] font-normal mb-2.5'>
@@ -78,7 +78,7 @@ const Posts = () => {
                     <strong className='hover:text-[#8EC2F2] cursor-pointer'>New</strong>
                    </div>
 
-                    <div className='text-[20px] font-normal leading-8 mb-2.5 text-[#252B42]'>
+                    <div className='text-[20px] font-bold leading-8 mb-2.5 text-[#252B42]'>
                         <h2>Loudest à la Madison #1 </h2>
                         <span>(L'integral)</span>
                     </div>
