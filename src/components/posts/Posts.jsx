@@ -40,7 +40,7 @@ const Posts = () => {
                     </div>
                     <img src={frame} alt="info" />
 
-                    <button className='mr-2 text-[#737373] text-[14px] font-bold'>Learn More</button>
+                    <button className='cursor-pointer mr-2 text-[#737373] text-[14px] font-bold'>Learn More</button>
                     <img className='inline-block' src={iconRight} alt="" />
                 </div>
                 </div>
@@ -65,7 +65,7 @@ const Posts = () => {
                     </div>
                     <img src={frame} alt="info" />
 
-                    <button className='mr-2 text-[#737373] text-[14px] font-bold'>Learn More</button>
+                    <button className='cursor-pointer mr-2 text-[#737373] text-[14px] font-bold'>Learn More</button>
                     <img className='inline-block' src={iconRight} alt="" />
                 </div>
                 </div>
@@ -90,7 +90,7 @@ const Posts = () => {
                     </div>
                     <img src={frame} alt="info" />
 
-                    <button className='mr-2 text-[#737373] text-[14px] font-bold'>Learn More</button>
+                    <button className='cursor-pointer mr-2 text-[#737373] text-[14px] font-bold'>Learn More</button>
                     <img className='inline-block' src={iconRight} alt="" />
                 </div>
                 </div>
