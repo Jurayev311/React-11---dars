@@ -5,10 +5,10 @@ import heroImage from '../../assets/hero.svg'
 const Hero = () => {
   return (
     <div
-      className="h-[950px] w-full bg-cover bg-top sm:bg-center relative"
+      className="h-[910px] w-full bg-cover bg-top sm:bg-center relative"
       style={{ backgroundImage: `url(${heroImage})` }}
     >
-      <div className="container flex flex-col gap-6 text-white items-start absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] max-md:items-center">
+      <div className="container flex flex-col gap-6 text-white items-start absolute top-[45%] left-[50%] translate-x-[-50%] translate-y-[-45%] max-md:items-center">
         <div className="flex justify-start w-full max-md:justify-center">
           <span className="text-2xl font-bold leading-6 text-white max-xl:text-xl max-lg:text-lg max-md:text-base">
             SUMMER 2020
