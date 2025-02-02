@@ -5,10 +5,11 @@ import instagram from '../../assets/instagram.svg'
 import youtube from '../../assets/youtube.svg'
 import facebook from '../../assets/facebook.svg'
 import twitter from '../../assets/twitter.svg'
+import './topHeader.scss'
 
 const Topheader = () => {
   return (
-    <header className='bg-[#252B42] text-white'>
+    <header className='px-4 bg-[#252B42] text-white top-header'>
         <div className='mx-auto max-w-[1380px]'>
           <ul className='flex items-center justify-between h-[58px] text-[14px] font-bold'>
             <div className='flex gap-5'>

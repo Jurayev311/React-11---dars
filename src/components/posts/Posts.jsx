@@ -18,7 +18,7 @@ const Posts = () => {
                 </div>
             </div>
 
-            <div className='grid grid-cols-3 gap-8'>
+            <div className='grid grid-cols-3 gap-8 max-lg:grid-cols-1'>
                 <div>
                 <img className='block' src={post1} alt="image" />
                 <div className='p-4 shadow rounded'>
