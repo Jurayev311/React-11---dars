@@ -18,81 +18,81 @@ const Posts = () => {
                 </div>
             </div>
 
-            <div className='grid grid-cols-3 gap-8 max-lg:grid-cols-1'>
-                <div>
-                <img className='block' src={post1} alt="image" />
-                <div className='p-4 shadow rounded'>
-                   <div className='flex gap-3.5 text-[#737373] text-[12px] font-normal mb-2.5'>
-                    <strong className='hover:text-[#8EC2F2] cursor-pointer'>Google</strong>
-                    <strong className='hover:text-[#8EC2F2] cursor-pointer'>Trending</strong>
-                    <strong className='hover:text-[#8EC2F2] cursor-pointer'>New</strong>
-                   </div>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>
+                <div className='shadow rounded'>
+                    <img className='w-full h-auto' src={post1} alt="image" />
+                    <div className='p-4'>
+                        <div className='flex gap-3.5 text-[#737373] text-[12px] font-normal mb-2.5'>
+                            <strong className='hover:text-[#8EC2F2] cursor-pointer'>Google</strong>
+                            <strong className='hover:text-[#8EC2F2] cursor-pointer'>Trending</strong>
+                            <strong className='hover:text-[#8EC2F2] cursor-pointer'>New</strong>
+                        </div>
 
-                    <div className='text-[20px] font-bold leading-8 mb-2.5 text-[#252B42]'>
-                        <h2>Loudest à la Madison #1 </h2>
-                        <span>(L'integral)</span>
+                        <div className='text-[20px] font-bold leading-8 mb-2.5 text-[#252B42]'>
+                            <h2>Loudest à la Madison #1 </h2>
+                            <span>(L'integral)</span>
+                        </div>
+
+                        <div className='text-[#737373] text-[14px] font-normal'>
+                            <p>We focus on ergonomics and meeting </p>
+                            <p>you where you work. It's only a </p>
+                            <p>keystroke away.</p>
+                        </div>
+                        <img src={frame} alt="info" />
+
+                        <button className='cursor-pointer mr-2 text-[#737373] text-[14px] font-bold'>Learn More</button>
+                        <img className='inline-block' src={iconRight} alt="" />
                     </div>
-
-                    <div className='text-[#737373] text-[14px] font-normal'>
-                        <p>We focus on ergonomics and meeting </p>
-                        <p>you where you work. It's only a </p>
-                        <p>keystroke away.</p>
-                    </div>
-                    <img src={frame} alt="info" />
-
-                    <button className='cursor-pointer mr-2 text-[#737373] text-[14px] font-bold'>Learn More</button>
-                    <img className='inline-block' src={iconRight} alt="" />
-                </div>
                 </div>
                 <div className='shadow rounded'>
-                <img className='block' src={post2} alt="image" />
-                <div className='p-4'>
-                   <div className='flex gap-3.5 text-[#737373] text-[12px] font-normal mb-2.5'>
-                    <strong className='hover:text-[#8EC2F2] cursor-pointer'>Google</strong>
-                    <strong className='hover:text-[#8EC2F2] cursor-pointer'>Trending</strong>
-                    <strong className='hover:text-[#8EC2F2] cursor-pointer'>New</strong>
-                   </div>
+                    <img className='w-full h-auto' src={post2} alt="image" />
+                    <div className='p-4'>
+                        <div className='flex gap-3.5 text-[#737373] text-[12px] font-normal mb-2.5'>
+                            <strong className='hover:text-[#8EC2F2] cursor-pointer'>Google</strong>
+                            <strong className='hover:text-[#8EC2F2] cursor-pointer'>Trending</strong>
+                            <strong className='hover:text-[#8EC2F2] cursor-pointer'>New</strong>
+                        </div>
 
-                    <div className='text-[20px] font-bold leading-8 mb-2.5 text-[#252B42]'>
-                        <h2>Loudest à la Madison #1 </h2>
-                        <span>(L'integral)</span>
+                        <div className='text-[20px] font-bold leading-8 mb-2.5 text-[#252B42]'>
+                            <h2>Loudest à la Madison #1 </h2>
+                            <span>(L'integral)</span>
+                        </div>
+
+                        <div className='text-[#737373] text-[14px] font-normal'>
+                            <p>We focus on ergonomics and meeting </p>
+                            <p>you where you work. It's only a </p>
+                            <p>keystroke away.</p>
+                        </div>
+                        <img src={frame} alt="info" />
+
+                        <button className='cursor-pointer mr-2 text-[#737373] text-[14px] font-bold'>Learn More</button>
+                        <img className='inline-block' src={iconRight} alt="" />
                     </div>
-
-                    <div className='text-[#737373] text-[14px] font-normal'>
-                        <p>We focus on ergonomics and meeting </p>
-                        <p>you where you work. It's only a </p>
-                        <p>keystroke away.</p>
-                    </div>
-                    <img src={frame} alt="info" />
-
-                    <button className='cursor-pointer mr-2 text-[#737373] text-[14px] font-bold'>Learn More</button>
-                    <img className='inline-block' src={iconRight} alt="" />
-                </div>
                 </div>
                 <div className='shadow rounded'>
-                <img className='block' src={post3} alt="image" />
-                <div className='p-4'>
-                   <div className='flex gap-3.5 text-[#737373] text-[12px] font-normal mb-2.5'>
-                    <strong className='hover:text-[#8EC2F2] cursor-pointer'>Google</strong>
-                    <strong className='hover:text-[#8EC2F2] cursor-pointer'>Trending</strong>
-                    <strong className='hover:text-[#8EC2F2] cursor-pointer'>New</strong>
-                   </div>
+                    <img className='w-full h-auto' src={post3} alt="image" />
+                    <div className='p-4'>
+                        <div className='flex gap-3.5 text-[#737373] text-[12px] font-normal mb-2.5'>
+                            <strong className='hover:text-[#8EC2F2] cursor-pointer'>Google</strong>
+                            <strong className='hover:text-[#8EC2F2] cursor-pointer'>Trending</strong>
+                            <strong className='hover:text-[#8EC2F2] cursor-pointer'>New</strong>
+                        </div>
 
-                    <div className='text-[20px] font-bold leading-8 mb-2.5 text-[#252B42]'>
-                        <h2>Loudest à la Madison #1 </h2>
-                        <span>(L'integral)</span>
+                        <div className='text-[20px] font-bold leading-8 mb-2.5 text-[#252B42]'>
+                            <h2>Loudest à la Madison #1 </h2>
+                            <span>(L'integral)</span>
+                        </div>
+
+                        <div className='text-[#737373] text-[14px] font-normal'>
+                            <p>We focus on ergonomics and meeting </p>
+                            <p>you where you work. It's only a </p>
+                            <p>keystroke away.</p>
+                        </div>
+                        <img src={frame} alt="info" />
+
+                        <button className='cursor-pointer mr-2 text-[#737373] text-[14px] font-bold'>Learn More</button>
+                        <img className='inline-block' src={iconRight} alt="" />
                     </div>
-
-                    <div className='text-[#737373] text-[14px] font-normal'>
-                        <p>We focus on ergonomics and meeting </p>
-                        <p>you where you work. It's only a </p>
-                        <p>keystroke away.</p>
-                    </div>
-                    <img src={frame} alt="info" />
-
-                    <button className='cursor-pointer mr-2 text-[#737373] text-[14px] font-bold'>Learn More</button>
-                    <img className='inline-block' src={iconRight} alt="" />
-                </div>
                 </div>
             </div>
         </div>
