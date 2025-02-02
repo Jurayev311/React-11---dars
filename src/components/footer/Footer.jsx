@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <>
       <div className='w-full h-36 bg-[#fafafa]'>
-        <div className='container flex items-center justify-between mt-24 h-full'>
+        <div className='container mx-auto flex items-center justify-between mt-24 h-full px-4 sm:px-6 lg:px-8'>
           <div>
             <img src={logo} alt='' />
           </div>
@@ -20,9 +20,9 @@ const Footer = () => {
         </div>
       </div>
       <div className='w-full h-auto'>
-        <div className='container flex gap-7.5 items-center h-[272px] flex-wrap'>
-          <ul className='flex flex-col items-start w-[148px]'>
-            <h2 className='text-base font-bold  text-[#252B42] mb-5'>
+        <div className='container mx-auto flex flex-wrap gap-7.5 items-center h-[272px] px-4 sm:px-6 lg:px-8'>
+          <ul className='flex flex-col items-start w-full sm:w-[148px]'>
+            <h2 className='text-base font-bold text-[#252B42] mb-5'>
               Company Info
             </h2>
             <li className='text-[#737373] text-sm font-bold mt-2.5 hover:underline'>
@@ -46,8 +46,8 @@ const Footer = () => {
               </a>
             </li>
           </ul>
-          <ul className='flex flex-col items-start w-[148px]'>
-            <h2 className='text-base font-bold  text-[#252B42] mb-5'>Legal</h2>
+          <ul className='flex flex-col items-start w-full sm:w-[148px]'>
+            <h2 className='text-base font-bold text-[#252B42] mb-5'>Legal</h2>
             <li className='text-[#737373] text-sm font-bold mt-2.5 hover:underline'>
               <a href=''>
                 <span>About Us</span>
@@ -69,8 +69,8 @@ const Footer = () => {
               </a>
             </li>
           </ul>
-          <ul className='flex flex-col items-start w-[148px]'>
-            <h2 className='text-base font-bold  text-[#252B42] mb-5'>
+          <ul className='flex flex-col items-start w-full sm:w-[148px]'>
+            <h2 className='text-base font-bold text-[#252B42] mb-5'>
               Features
             </h2>
             <li className='text-[#737373] text-sm font-bold mt-2.5 hover:underline'>
@@ -94,8 +94,8 @@ const Footer = () => {
               </a>
             </li>
           </ul>
-          <ul className='flex flex-col items-start w-[148px]'>
-            <h2 className='text-base font-bold  text-[#252B42] mb-5'>
+          <ul className='flex flex-col items-start w-full sm:w-[148px]'>
+            <h2 className='text-base font-bold text-[#252B42] mb-5'>
               Resources
             </h2>
             <li className='text-[#737373] text-sm font-bold mt-2.5 hover:underline'>
@@ -104,7 +104,6 @@ const Footer = () => {
               </a>
             </li>
             <li className='text-[#737373] text-sm font-bold mt-2.5 hover:underline'>
-                
               <a href=''>
                 <span>Watch a Demo</span>
               </a>
@@ -124,13 +123,13 @@ const Footer = () => {
             <span className='text-base font-bold text-[#252B42]'>
               Get In Touch
             </span>
-            <div className='flex border border-[#e6e6e6] w-[321px] h-[58px] rounded-[5px] mt-5'>
+            <div className='flex border border-[#e6e6e6] w-full sm:w-[321px] h-[58px] rounded-[5px] mt-5'>
               <input
                 className='p-5 w-[70%]'
                 type='text'
                 placeholder='Your Email'
               />
-              <button className='bg-[#23A6F0] w-[30%] text-white rounded-r-[5px] border-l-[#e6e6e6] '>
+              <button className='bg-[#23A6F0] w-[30%] text-white rounded-r-[5px] border-l-[#e6e6e6]'>
                 Subscribe
               </button>
             </div>
@@ -141,9 +140,9 @@ const Footer = () => {
         </div>
       </div>
       <div className='w-full h-[74px] bg-[#fafafa]'>
-        <div className='container flex items-center h-full'>
+        <div className='container mx-auto flex items-center justify-center h-full px-4 sm:px-6 lg:px-8'>
           <span className='text-sm font-bold text-[#737373]'>
-            Made With Love By Finland All Right Reserved{' '}
+            Made With Love By Finland All Right Reserved
           </span>
         </div>
       </div>
@@ -152,4 +151,3 @@ const Footer = () => {
 }
 
 export default Footer
-
