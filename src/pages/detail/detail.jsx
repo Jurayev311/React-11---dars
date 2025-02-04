@@ -1,10 +1,10 @@
 import React from 'react'
 import DetailPage from '../../components/detailPage/DetailPage'
 
-const detail = () => {
+const Detail = () => {
   return (
     <DetailPage />  
   )
 }
 
-export default detail
+export default Detail
