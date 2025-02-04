@@ -1,9 +1,11 @@
 import React, { useEffect, useState } from "react";
 import { request } from "../../api";
 import { colors } from "../../static/index";
+import { useNavigate } from "react-router-dom";
 
 const Products = () => {
   const [products, setProducts] = useState([]);
+  const navigate = useNavigate();
 
   useEffect(() => {
     request
@@ -35,9 +37,9 @@ const Products = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
           {products.length > 0 ? (
             products.map((product) => (
-              <div
+              <div onClick={() => navigate(`/product/${product.id}`)}
                 key={product.id}
-                className="bg-white rounded-xl shadow-lg hover:shadow-2xl transition duration-300 p-4"
+                className="bg-white rounded-xl shadow-lg hover:shadow-2xl transition duration-300 p-4 cursor-pointer"
               >
                 <div className="w-full aspect-square overflow-hidden rounded-lg">
                   <img

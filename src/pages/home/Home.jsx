@@ -9,7 +9,6 @@ import Products from '../../components/products/Products'
 const Home = () => {
   return (
     <>
-        <Header />
         <Hero />
         <Editors />
         <Products />
