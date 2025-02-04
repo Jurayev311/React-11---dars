@@ -12,15 +12,15 @@ import DetailPage from '../../components/detailPage/DetailPage'
 const Home = () => {
   return (
     <>
-        {/* <Topheader />
+        <Topheader />
         <Header />
         <Hero />
         <Editors />
         <Products />
         <Cta />
         <Posts />
-        <Footer /> */}
-        <DetailPage />  
+        <Footer />
+        {/* <DetailPage />   */}
     </>
   )
 }
