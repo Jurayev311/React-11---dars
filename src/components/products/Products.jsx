@@ -39,7 +39,7 @@ const Products = () => {
             products.map((product) => (
               <div onClick={() => navigate(`/product/${product.id}`)}
                 key={product.id}
-                className="bg-white rounded-xl shadow-lg hover:shadow-2xl transition duration-300 p-4 cursor-pointer"
+                className="bg-white rounded-xl transition p-4 cursor-pointer"
               >
                 <div className="w-full aspect-square overflow-hidden rounded-lg">
                   <img

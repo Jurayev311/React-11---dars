@@ -2,7 +2,8 @@ import React from 'react'
 import post1 from '../../assets/post1.svg'
 import post2 from '../../assets/post2.svg'
 import post3 from '../../assets/post3.svg'
-import frame from '../../assets/frame.svg'
+import watch from '../../assets/watch.svg'
+import rating from '../../assets/rating.svg'
 import iconRight from '../../assets/icon-right.svg'
 
 const Posts = () => {
@@ -38,7 +39,14 @@ const Posts = () => {
                             <p>you where you work. It's only a </p>
                             <p>keystroke away.</p>
                         </div>
-                        <img src={frame} alt="info" />
+                        <div className='mt-[25px] mb-[25px] flex text-[12px] font-bold text-[#737373]'>
+                            <img src={watch} alt="info" />
+                            <h3 className='pl-1'>22 April 2021</h3>
+                            <div className='flex ml-[50px]'>
+                                <img src={rating} alt="info" />
+                                <span className='pl-1'>10 comments</span>
+                            </div>
+                        </div>
 
                         <button className='cursor-pointer mr-2 text-[#737373] text-[14px] font-bold'>Learn More</button>
                         <img className='inline-block' src={iconRight} alt="" />
@@ -63,7 +71,14 @@ const Posts = () => {
                             <p>you where you work. It's only a </p>
                             <p>keystroke away.</p>
                         </div>
-                        <img src={frame} alt="info" />
+                        <div className='mt-[25px] mb-[25px] flex text-[12px] font-bold text-[#737373]'>
+                            <img src={watch} alt="info" />
+                            <h3 className='pl-1'>22 April 2021</h3>
+                            <div className='flex ml-[50px]'>
+                                <img src={rating} alt="info" />
+                                <span className='pl-1'>10 comments</span>
+                            </div>
+                        </div>
 
                         <button className='cursor-pointer mr-2 text-[#737373] text-[14px] font-bold'>Learn More</button>
                         <img className='inline-block' src={iconRight} alt="" />
@@ -88,7 +103,14 @@ const Posts = () => {
                             <p>you where you work. It's only a </p>
                             <p>keystroke away.</p>
                         </div>
-                        <img src={frame} alt="info" />
+                        <div className='mt-[25px] mb-[25px] flex text-[12px] font-bold text-[#737373]'>
+                            <img src={watch} alt="info" />
+                            <h3 className='pl-1'>22 April 2021</h3>
+                            <div className='flex ml-[50px]'>
+                                <img src={rating} alt="info" />
+                                <span className='pl-1'>10 comments</span>
+                            </div>
+                        </div>
 
                         <button className='cursor-pointer mr-2 text-[#737373] text-[14px] font-bold'>Learn More</button>
                         <img className='inline-block' src={iconRight} alt="" />

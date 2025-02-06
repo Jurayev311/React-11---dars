@@ -17,7 +17,6 @@ const Detail = () => {
   return (
     <section className='py-10 px-4 flex justify-center items-center min-h-screen'>
       <div className='container mx-auto max-w-6xl flex items-center flex-col md:flex-row gap-10'>
-        {/* Image Section */}
         <div className='md:w-1/2 w-full'>
           <div className='relative h-[500px] max-h-[500px]'>
             <img
