@@ -141,12 +141,13 @@ const Footer = () => {
         </div>
       </div>
       <div className='w-full h-[74px] bg-[#fafafa]'>
-        <div className='container flex items-center justify-center h-full px-4 mx-auto sm:px-6 lg:px-8'>
-          <span className='text-sm font-bold text-[#737373]'>
-            Made With Love By Finland All Right Reserved
-          </span>
-        </div>
-      </div>
+  <div className='container flex items-center justify-center h-full px-4 mx-auto sm:px-6 lg:px-8'>
+    <span className='text-sm font-bold text-[#737373] hidden sm:inline-block'>
+      Made With Love By Finland All Right Reserved
+    </span>
+  </div>
+</div>
+
     </>
   )
 }
