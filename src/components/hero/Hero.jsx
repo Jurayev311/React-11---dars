@@ -23,9 +23,10 @@ const Hero = () => {
         </p>
 
         <div className="flex justify-start w-full max-md:justify-center">
-          <button className="px-10 py-4 bg-[#2DC071] text-2xl font-bold text-white cursor-pointer max-xl:text-xl max-lg:text-lg max-md:text-base max-sm:text-[16px]">
+          <button className="px-10 py-4 bg-[#2DC071] text-2xl font-bold text-white cursor-pointer transition duration-300 hover:bg-[#249b5a] hover:shadow-lg">
             SHOP NOW
           </button>
+
         </div>
       </div>
     </div>
