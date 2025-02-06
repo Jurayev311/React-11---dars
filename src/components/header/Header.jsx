@@ -17,17 +17,18 @@ const Header = () => {
       <div className='mx-auto max-w-[1380px]'>
         <nav className='flex justify-between items-center h-[58px]'>
           <ul className='flex items-center gap-[15px]'>
-             <div className='mr-[119px]'>
+            <div className='mr-[119px]'>
               <Link to="/">
                 <img src={logo} alt="logo" className='cursor-pointer' />
               </Link>
             </div>
-            
+
             {LINKS?.map((item, index) => (
-              <li key={index} className='cursor-pointer navbar-item'>
-                <span>{item.title}</span>
+              <li key={index} className="cursor-pointer navbar-item">
+                <span className="transition-all duration-300 hover:text-blue-500">{item.title}</span>
               </li>
             ))}
+
           </ul>
 
           <div className='flex items-center gap-3 navbar-profile'>
@@ -42,11 +43,11 @@ const Header = () => {
             </div>
           </div>
 
-          <div className='flex items-center gap-3 navbar-mobile'>
-            <button><img src={vector} alt="search" /></button>
-            <button><img src={shop} alt="shop" /></button>
-            <button><img src={menu} alt="menu" /></button>
-          </div>
+          <div className='flex items-center gap-3 navbar-mobile lg:hidden'>
+  <button><img src={vector} alt="search" /></button>
+  <button><img src={shop} alt="shop" /></button>
+  <button><img src={menu} alt="menu" /></button>
+</div>
         </nav>
       </div>
     </header>
