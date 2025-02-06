@@ -36,11 +36,13 @@ const Header = () => {
               <img className='inline-block' src={account} alt="account" />
               <h2 className='inline-block text-[#23A6F0]'>Login / Register</h2>
             </div>
-            <div className='flex gap-7'>
+              <Link to={"/wishlist"}>
+              <div className='flex gap-7'>
               <span><img className='cursor-pointer' src={search} alt="search" /></span>
               <span><img className='cursor-pointer' src={cart} alt="cart" /></span>
               <span><img className='cursor-pointer' src={wishlist} alt="wishlist" /></span>
-            </div>
+              </div>
+              </Link>
           </div>
 
           <div className='flex items-center gap-3 navbar-mobile lg:hidden'>
