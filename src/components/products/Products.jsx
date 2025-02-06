@@ -1,25 +1,10 @@
-import React, { useEffect, useState } from "react";
-import { request } from "../../api";
+import React from "react";
 import { colors } from "../../static/index";
 import { useNavigate } from "react-router-dom";
 
-const Products = () => {
-  const [products, setProducts] = useState([]);
-  const navigate = useNavigate();
+const Products = (products) => {
 
-  useEffect(() => {
-    request
-      .get("/products", {
-        params: {
-          limit: 8,
-        },
-      })
-      .then((res) => {
-        console.log(res.data);
-        setProducts(res.data);
-      })
-      .catch((err) => console.error("API Error:", err));
-  }, []);
+  const navigate = useNavigate();
 
   return (
     <section className="py-10">

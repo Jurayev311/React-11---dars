@@ -44,10 +44,10 @@ const Header = () => {
           </div>
 
           <div className='flex items-center gap-3 navbar-mobile lg:hidden'>
-  <button><img src={vector} alt="search" /></button>
-  <button><img src={shop} alt="shop" /></button>
-  <button><img src={menu} alt="menu" /></button>
-</div>
+            <button><img src={vector} alt="search" /></button>
+            <button><img src={shop} alt="shop" /></button>
+            <button><img src={menu} alt="menu" /></button>
+          </div>
         </nav>
       </div>
     </header>
