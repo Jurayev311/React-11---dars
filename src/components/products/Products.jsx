@@ -2,7 +2,7 @@ import React from "react";
 import { colors } from "../../static/index";
 import { useNavigate } from "react-router-dom";
 
-const Products = (products) => {
+const Products = ({ products }) => {
 
   const navigate = useNavigate();
 
@@ -20,52 +20,33 @@ const Products = (products) => {
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
-          {products.length > 0 ? (
-            products.map((product) => (
-              <div onClick={() => navigate(`/product/${product.id}`)}
-                key={product.id}
-                className="bg-white rounded-xl transition p-4 cursor-pointer"
-              >
-                <div className="w-full aspect-square overflow-hidden rounded-lg">
-                  <img
-                    className="w-full h-full object-contain"
-                    src={product.image}
-                    alt={product.title}
-                  />
-                </div>
-
-                <div className="p-4 text-center">
-                  <h2
-                    title={product.title}
-                    className="text-[#252B42] text-[16px] sm:text-[18px] font-bold mb-2 truncate"
-                  >
-                    {product.title}
-                  </h2>
-                  <p className="text-[#737373] text-[14px] sm:text-[16px] font-bold mb-2">
-                    English Department
-                  </p>
-                  <strong className="block text-[#23856D] text-[16px] sm:text-[18px] font-bold mb-3">
-                    ${product.price}
-                  </strong>
-
-                  <div className="flex items-center justify-center gap-2 mt-2">
-                    {colors.map((color, index) => (
-                      <span
-                        key={index}
-                        style={{ background: color }}
-                        className="w-5 h-5 sm:w-6 sm:h-6 inline-block rounded-full cursor-pointer border border-gray-300"
-                      ></span>
-                    ))}
-                  </div>
+          {products?.map((product) => (
+            <div onClick={() => navigate(`/product/${product.id}`)} key={product.id} className="bg-white rounded-xl transition p-4 cursor-pointer">
+              <div className="w-full aspect-square overflow-hidden rounded-lg">
+                <img className="w-full h-full object-contain" src={product.image} alt={product.title} />
+              </div>
+              <div className="p-4 text-center">
+                <h2 title={product.title} className="text-[#252B42] text-[16px] sm:text-[18px] font-bold mb-2 truncate">
+                  {product.title}
+                </h2>
+                <p className="text-[#737373] text-[14px] sm:text-[16px] font-bold mb-2">
+                  English Department
+                </p>
+                <strong className="block text-[#23856D] text-[16px] sm:text-[18px] font-bold mb-3">
+                  ${product.price}
+                </strong>
+                <div className="flex items-center justify-center gap-2 mt-2">
+                  {colors.map((color, index) => (
+                    <span key={index} style={{ background: color }} className="w-5 h-5 sm:w-6 sm:h-6 inline-block rounded-full cursor-pointer border border-gray-300"></span>
+                  ))}
                 </div>
               </div>
-            ))
-          ) : (
-            <p className="text-center text-[#737373]">Loading products...</p>
-          )}
+            </div>
+          ))}
         </div>
       </div>
     </section>
+
   );
 };
 
