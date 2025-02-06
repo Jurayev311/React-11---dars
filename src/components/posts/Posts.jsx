@@ -48,7 +48,10 @@ const Posts = () => {
                             </div>
                         </div>
 
-                        <button className='cursor-pointer mr-2 text-[#737373] text-[14px] font-bold'>Learn More</button>
+                          <button className='cursor-pointer mr-2 text-[#737373] text-[14px] font-bold transition duration-300 hover:text-[#8EC2F2] relative after:content-[""] after:absolute after:left-0 after:bottom-[-2px] after:w-0 after:h-[2px] after:bg-[#8EC2F2] after:transition-all after:duration-300 hover:after:w-full'>
+                              Learn More
+                          </button>
+
                         <img className='inline-block' src={iconRight} alt="" />
                     </div>
                 </div>
@@ -80,7 +83,9 @@ const Posts = () => {
                             </div>
                         </div>
 
-                        <button className='cursor-pointer mr-2 text-[#737373] text-[14px] font-bold'>Learn More</button>
+                        <button className='cursor-pointer mr-2 text-[#737373] text-[14px] font-bold transition duration-300 hover:text-[#8EC2F2] relative after:content-[""] after:absolute after:left-0 after:bottom-[-2px] after:w-0 after:h-[2px] after:bg-[#8EC2F2] after:transition-all after:duration-300 hover:after:w-full'>
+                              Learn More
+                          </button>
                         <img className='inline-block' src={iconRight} alt="" />
                     </div>
                 </div>
@@ -112,7 +117,9 @@ const Posts = () => {
                             </div>
                         </div>
 
-                        <button className='cursor-pointer mr-2 text-[#737373] text-[14px] font-bold'>Learn More</button>
+                        <button className='cursor-pointer mr-2 text-[#737373] text-[14px] font-bold transition duration-300 hover:text-[#8EC2F2] relative after:content-[""] after:absolute after:left-0 after:bottom-[-2px] after:w-0 after:h-[2px] after:bg-[#8EC2F2] after:transition-all after:duration-300 hover:after:w-full'>
+                              Learn More
+                          </button>
                         <img className='inline-block' src={iconRight} alt="" />
                     </div>
                 </div>

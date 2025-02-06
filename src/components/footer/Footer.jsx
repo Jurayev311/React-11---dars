@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <>
       <div className='w-full h-36 bg-[#fafafa]'>
-        <div className='container mx-auto flex items-center justify-between mt-24 h-full px-4 sm:px-6 lg:px-8'>
+        <div className='container flex items-center justify-between h-full px-4 mx-auto mt-24 sm:px-6 lg:px-8'>
           <div>
             <img src={logo} alt='' />
           </div>
@@ -123,16 +123,17 @@ const Footer = () => {
             <span className='text-base font-bold text-[#252B42]'>
               Get In Touch
             </span>
-            <div className='flex border border-[#e6e6e6] w-full sm:w-[321px] h-[58px] rounded-[5px] mt-5'>
+            <div className='relative w-full sm:w-[321px] h-[58px] mt-5 border border-[#e6e6e6] rounded-[5px] overflow-hidden'>
               <input
-                className='p-5 w-[70%]'
+                className='p-5 w-full h-full pr-[90px] outline-none'
                 type='text'
                 placeholder='Your Email'
               />
-              <button className='bg-[#23A6F0] w-[30%] text-white rounded-r-[5px] border-l-[#e6e6e6]'>
+              <button className='absolute top-0 right-0 h-full px-4 bg-[#23A6F0] text-white rounded-r-[5px] transition duration-300 hover:bg-[#1d8ed6] hover:shadow-lg cursor-pointer'>
                 Subscribe
               </button>
             </div>
+
             <span className='text-sm font-normal text-[#737373]'>
               Lore imp sum dolor Amit
             </span>
@@ -140,7 +141,7 @@ const Footer = () => {
         </div>
       </div>
       <div className='w-full h-[74px] bg-[#fafafa]'>
-        <div className='container mx-auto flex items-center justify-center h-full px-4 sm:px-6 lg:px-8'>
+        <div className='container flex items-center justify-center h-full px-4 mx-auto sm:px-6 lg:px-8'>
           <span className='text-sm font-bold text-[#737373]'>
             Made With Love By Finland All Right Reserved
           </span>

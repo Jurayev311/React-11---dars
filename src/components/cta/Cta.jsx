@@ -20,13 +20,14 @@ const Cta = () => {
             </span>
 
             <div className='flex flex-col sm:flex-row gap-4 sm:gap-8 text-[14px] sm:text-[16px] font-bold mt-8'>
-              <button className='px-[40px] py-[15px] bg-[#2DC071] text-white rounded-[5px] cursor-pointer'>
+              <button className='px-[40px] py-[15px] bg-[#2DC071] text-white rounded-[5px] cursor-pointer transition duration-300 hover:bg-[#249b5a] hover:shadow-lg'>
                 BUY NOW
               </button>
-              <button className='px-[40px] py-[15px] border text-[#2DC071] rounded-[5px] cursor-pointer'>
+              <button className='px-[40px] py-[15px] border border-[#2DC071] text-[#2DC071] rounded-[5px] cursor-pointer transition duration-300 hover:bg-[#2DC071] hover:text-white hover:shadow-lg'>
                 READ MORE
               </button>
             </div>
+
           </div>
 
           <div className='w-full md:w-1/2'>
