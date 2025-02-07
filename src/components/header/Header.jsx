@@ -13,7 +13,7 @@ import vector from '../../assets/vector.svg'
 
 const Header = () => {
   return (
-    <header className='px-4 text-[#737373] text-[14px] font-bold'>
+    <header className='sticky top-0 left-0 z-50 bg-white px-4 text-[#737373] text-[14px] font-bold'>
       <div className='mx-auto max-w-[1380px]'>
         <nav className='flex justify-between items-center h-[58px]'>
           <ul className='flex items-center gap-[15px]'>
