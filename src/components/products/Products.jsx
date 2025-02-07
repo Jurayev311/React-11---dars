@@ -1,13 +1,13 @@
 import React from "react";
 import { colors } from "../../static/index";
 import { useNavigate } from "react-router-dom";
-import { FaRegHeart } from "react-icons/fa";
+import { FaRegHeart, FaHeart  } from "react-icons/fa";
 import { useGlobalContext } from "../../context";
 
 const Products = ({ products }) => {
 
   const navigate = useNavigate();
-  const [_, dispatch] = useGlobalContext()
+  const [state, dispatch] = useGlobalContext()
   
 
   return (
@@ -30,7 +30,11 @@ const Products = ({ products }) => {
               <div className="w-full aspect-square overflow-hidden rounded-lg">
                 <img className="w-full h-full object-contain" src={product.image} alt={product.title} />
               </div>
-                <button onClick={() => dispatch({type: "TOOGLE_LIKE", payload:product})} className="absolute top-1 right-1 text-[19px] cursor-pointer"><FaRegHeart /></button>
+                <button onClick={() => dispatch({type: "TOOGLE_LIKE", payload:product})} className="absolute top-1 right-1 text-[19px] cursor-pointer">
+                  {
+                    state.wishlist?.some(({id}) => id === product.id) ? <FaHeart className="text-red-500"/> : <FaRegHeart />
+                  }
+                </button>
               </div>
               <div className="p-4 text-center">
                 <h2 onClick={() => navigate(`/product/${product.id}`)} title={product.title} className="text-[#252B42] text-[16px] sm:text-[18px] font-bold mb-2 truncate cursor-pointer">
