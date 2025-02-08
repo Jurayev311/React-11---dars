@@ -11,10 +11,6 @@ const Home = () => {
 const [products, setProducts] = useState([]);
 
   useEffect(() => {
-        window.scrollTo({behavior: "smooth", left:0, top:0})
-    }, [])
-
-  useEffect(() => {
     request
       .get("/products", {
         params: {
