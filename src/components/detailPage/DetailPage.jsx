@@ -14,6 +14,11 @@ const Detail = () => {
     })
   }, [id])
 
+  useEffect(() => {
+    window.scrollTo({ behavior: "smooth", left: 0, top: 0 })
+  }, [])
+
+
   return (
     <section className='py-10 px-4 flex justify-center items-center min-h-screen'>
       <div className='container mx-auto max-w-6xl flex items-center flex-col md:flex-row gap-10'>
